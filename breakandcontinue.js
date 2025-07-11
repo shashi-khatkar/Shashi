@@ -8,4 +8,4 @@ for(let a=0; a<10; a++) {
     if(b === 3) {
         break; // Exit the loop when b is 3
     }
-    console.log(b); // This will print numbers from 0 to 2
+    console.log(b);} // This will print numbers from 0 to 2
