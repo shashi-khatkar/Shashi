@@ -37,3 +37,12 @@ console.log(myarr.indexOf(3));
  const c=3;
  console.log(Array.of(a,b,c));
  
+ const a1=["shashi","khatkar","mca","naguran"];
+a1.forEach(function (items, index){
+    console.log(index + ": " + items)
+});
+
+const b1=[1,2,3,4,5]
+b1.map(function(items){
+    console.log(2*items)
+})
